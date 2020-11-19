@@ -2,7 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { Link } from 'gatsby';
-import logo from '/Users/stefanhancar/Downloads/gatsby-intro/static/images/vagus.jpg';
 
 const NavLink = styled(Link)`
   color: #222;
@@ -33,13 +32,7 @@ const Header = () => (
     `}
   >
     <NavLink to="/" fontWeight="bold">
-      <img
-        src={logo}
-        width="45"
-        height="35"
-        className="d-inline-block align-top"
-        alt="Unimus"
-      />
+      VagusLogo
     </NavLink>
     <nav
       css={css`
