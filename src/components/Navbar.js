@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     navbarOpen: false,
     css: 'collapse navbar-collapse ',
     links: [
-      { id: 1, path: '/', text: 'home' },
+      { id: 1, path: '/', text: 'Naša práca' },
       {
         id: 2,
         path: '/about',
@@ -14,6 +14,11 @@ export default class Navbar extends Component {
       },
       {
         id: 3,
+        path: '/novinky',
+        text: 'Novinky',
+      },
+      {
+        id: 4,
         path: '/contact',
         text: 'Kontakt',
       },
@@ -21,7 +26,10 @@ export default class Navbar extends Component {
   };
   navbarHandler = () => {
     this.state.navbarOpen
-      ? this.setState({ navbarOpen: false, css: 'collapse navbar-collapse' })
+      ? this.setState({
+          navbarOpen: false,
+          css: 'collapse navbar-collapse',
+        })
       : this.setState({
           navbarOpen: true,
           css: 'collapse navbar-collapse show',

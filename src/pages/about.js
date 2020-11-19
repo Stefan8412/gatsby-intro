@@ -3,9 +3,11 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Navbar from '../components/Navbar';
 import './bootstrap.min.css';
+import Hero from '../components/hero';
 
 const About = () => (
   <>
+    <Hero />
     <Navbar />
     <Layout>
       <h1>O nás</h1>
