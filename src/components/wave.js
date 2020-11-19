@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { css } from '@emotion/core';
 
 const Wave = () => {
-  const [waves, setWaves] = useState(0);
-  const label = `👋 ${waves} ${waves === 1 ? 'wave' : 'waves'}`;
+  const [mávnutí, setWaves] = useState(0);
+  const label = `👋 ${mávnutí} ${mávnutí === 1 ? 'mávnutie' : 'mávnutí'}`;
 
   return (
     <button
@@ -13,7 +13,7 @@ const Wave = () => {
         color: white;
         font-size: 1.25rem;
       `}
-      onClick={() => setWaves(waves + 1)}
+      onClick={() => setWaves(mávnutí + 1)}
     >
       {label}
     </button>
