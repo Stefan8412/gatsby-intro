@@ -13,8 +13,8 @@ const Insta = () => {
         css={css`
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-between;
-          margin: 1rem -0.5rem;
+          justify-content: space-around;
+          margin: 1rem -0.25rem;
         `}
       >
         {instaPhotos.map(photo => (
