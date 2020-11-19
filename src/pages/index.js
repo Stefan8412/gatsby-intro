@@ -3,12 +3,18 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Hero from '../components/hero';
 import Insta from '../components/insta';
+import { css } from '@emotion/core';
 
 export default () => (
   <>
     <Hero />
     <Layout>
-      <p>
+      <p
+        css={css`
+          color: #222;
+          font-size: 1rem;
+        `}
+      >
         Sme občianske združenie pracujúce s ľudmi bez domova. Od roku 2012 sme
         sprevádzali viac ako 5 000 osôb počas ich cesty z ulice.
       </p>

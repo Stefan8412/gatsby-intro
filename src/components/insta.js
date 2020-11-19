@@ -50,7 +50,7 @@ const Insta = () => {
           </a>
         ))}
       </div>
-      <a href={`https://instagram.com/${username}`}>
+      <a href="https://www.instagram.com/vagus_sk/?hl=sk">
         viac na našom Instagrame &rarr;
       </a>
     </>
