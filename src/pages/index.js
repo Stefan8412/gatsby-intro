@@ -4,10 +4,13 @@ import Layout from '../components/layout';
 import Hero from '../components/hero';
 import Insta from '../components/insta';
 import { css } from '@emotion/core';
+import Navbar from '../components/Navbar';
+import './bootstrap.min.css';
 
 export default () => (
   <>
     <Hero />
+    <Navbar />
     <Layout>
       <p
         css={css`

@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.12",
     "@mdx-js/mdx": "^1.6.21",
     "@mdx-js/react": "^1.6.21",
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
     "gatsby-background-image": "^1.2.0",
     "gatsby-image": "^2.5.0",
@@ -32,6 +33,7 @@
     "gatsby-source-instagram": "^0.8.0-beta.0",
     "gatsby-transformer-sharp": "^2.6.0",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0"
   },
