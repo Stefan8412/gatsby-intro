@@ -9,7 +9,6 @@ const Insta = () => {
 
   return (
     <>
-      <h2> @{username}</h2>
       <div
         css={css`
           display: flex;
