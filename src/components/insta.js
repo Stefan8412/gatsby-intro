@@ -9,7 +9,7 @@ const Insta = () => {
 
   return (
     <>
-      <h2>Instagram @{username}</h2>
+      <h2> @{username}</h2>
       <div
         css={css`
           display: flex;

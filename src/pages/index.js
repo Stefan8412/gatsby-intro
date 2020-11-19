@@ -8,8 +8,11 @@ export default () => (
   <>
     <Hero />
     <Layout>
-      <h1>Sme občianske združenie pracujúce s ľudmi bez domova</h1>
-      <p>Vitajte na našom webe</p>
+      <p>
+        Sme občianske združenie pracujúce s ľudmi bez domova. Od roku 2012 sme
+        sprevádzali viac ako 5 000 osôb počas ich cesty z ulice.
+      </p>
+
       <Link to="/about/">info o nás &rarr;</Link>
       <Insta />
     </Layout>
