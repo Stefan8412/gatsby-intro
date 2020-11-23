@@ -7,8 +7,8 @@ import Hero from '../components/hero';
 
 const Contact = () => (
   <>
-    <Hero />
     <Navbar />
+
     <Layout>
       <p>
         Sídlo a poštová adresa OZ VAGUS Račianska 78 (Nová Cvernovka) 831 02

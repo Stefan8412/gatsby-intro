@@ -9,8 +9,8 @@ import './bootstrap.min.css';
 
 export default () => (
   <>
-    <Hero />
     <Navbar />
+
     <Layout>
       <p
         css={css`

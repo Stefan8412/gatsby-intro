@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
 
           /* More info: https://bit.ly/2PsCnzk */
           * + * {
-            margin-top: 1rem;
+            margin-top: 0rem;
           }
 
           html,
@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-
+      <Hero />
       <main
         css={css`
           margin: 2rem auto 4em;

@@ -8,7 +8,7 @@ const ImageBackground = styled('div')`
   background-size: cover;
   height: 50vh;
   + * {
-    margin-top: 0;
+    margin-top: 10;
   }
 `;
 
@@ -31,7 +31,7 @@ const TextBox = styled('div')`
     margin-top: 0;
   }
   a {
-    margin-top: 0.5rem;
+    margin-top: 0.5;
   }
 `;
 

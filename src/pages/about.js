@@ -7,8 +7,8 @@ import Hero from '../components/hero';
 
 const About = () => (
   <>
-    <Hero />
     <Navbar />
+
     <Layout>
       <h1>O nás</h1>
       <p>
